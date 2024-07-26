@@ -1,8 +1,8 @@
-# Fabric Example Mod
+# SimpleSuicide
 
-## Setup
+## Usage
 
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
+- Add a command `/suicide` for all players to quickly kill himself without cheating.
 
 ## License
 
