@@ -1,34 +1,28 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "simple_suicide",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "SimpleSuicide",
+	"description": "A simple server-side suicide mod for Fabric",
 	"authors": [
-		"Me!"
+		"yqs112358"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://github.com/YQ-Fabric-Mods/SimpleSuicide",
+		"sources": "https://github.com/YQ-Fabric-Mods/SimpleSuicide"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/simple_suicide/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.yqs112358.SimpleSuicideMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.yqs112358.SimpleSuicideModClient"
 		]
 	},
-	"mixins": [
-		"modid.mixins.json",
-		{
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
-	],
+	"mixins": [],
 	"depends": {
 		"fabricloader": ">=0.15.11",
 		"minecraft": "~1.21",
