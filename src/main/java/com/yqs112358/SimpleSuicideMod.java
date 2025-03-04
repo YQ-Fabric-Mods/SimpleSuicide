@@ -13,7 +13,6 @@ public class SimpleSuicideMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
 		CommandRegistrationCallback.EVENT.register((dispatcher, registryAccess, environment) -> register(dispatcher));
 		LOGGER.info("SimpleSuicide loaded.");
 	}
