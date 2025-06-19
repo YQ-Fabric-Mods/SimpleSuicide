@@ -17,7 +17,7 @@ public final class SuicideCommand {
 
     public static int playerSuicide(ServerCommandSource source) throws CommandSyntaxException {
         ServerPlayerEntity player = source.getPlayerOrThrow();
-        player.kill(player.getServerWorld());
+        player.kill(player.getWorld());
         return Command.SINGLE_SUCCESS;
     }
 }
